@@ -1,0 +1,68 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+@using Umbraco.Web;
+@{
+    Layout = "_Layout.cshtml";
+
+    IEnumerable<IPublishedContent> trainers = CurrentPage.Children;
+}
+
+<div class="coverPhoto">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 coverText">
+                @Model.Content.Name
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container">
+    <div class="row">
+        <div class="col-xs-12 gymTitle">
+            @Model.Content.GetPropertyValue("header")
+        </div>
+    </div>
+</div>
+<div class="container">
+    <div class="row">
+        <div class="col-xs-12 gymDesc">
+            @Model.Content.GetPropertyValue("trainerDescription")
+        </div>
+    </div>
+</div>
+<div class="container">
+    <div class="row">
+        @foreach (var trainer in trainers)
+        {
+            <div class="col-xs-12 trainerContain">
+                @if (trainer.HasValue("image"))
+                {
+                    var photo = Umbraco.TypedMedia(trainer.GetPropertyValue<string>("image"));
+                    <div class="row">
+                        <div class="col-xs-4 trainerImage">
+                            <img src="@photo.GetPropertyValue("umbracoFile")" alt="" />
+                        </div>
+                        <div class="col-xs-8 pull-right trainerName">
+                            @trainer.GetPropertyValue("trainerName")
+                        </div>
+                        <div class="col-xs-8 pull-right trainerDesc">
+                            @trainer.GetPropertyValue("description")
+                        </div>
+                    </div>
+                }
+                else
+                {
+                    <div class="row">
+                        <div class="col-xs-12 trainerName">
+                            @trainer.GetPropertyValue("trainerName")
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-12 trainerDesc">
+                            @trainer.GetPropertyValue("description")
+                        </div>
+                    </div>
+                }
+            </div>
+        }
+    </div>
+</div>

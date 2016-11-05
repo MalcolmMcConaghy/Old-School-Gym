@@ -1,0 +1,32 @@
+﻿@import "_Colors.scss";
+
+.navbar {
+    margin-bottom: 0 !important;
+    background-color: #000000;
+}
+
+.navbar-inverse .navbar-nav>li {    
+    padding: 0 20px;
+}
+
+.navbar-inverse .navbar-nav>li>a {    
+    color: #fff;
+    font-family: Oswald, Arial, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+
+    &:hover {
+        color: #f71b1b;
+    }
+}
+
+.navbar-inverse .navbar-brand {
+    color: #fff;
+    font-family: Oswald, Arial, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+
+    &:hover {
+        color: #f71b1b;
+    }
+}

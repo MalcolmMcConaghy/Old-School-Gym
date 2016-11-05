@@ -1,0 +1,166 @@
+﻿@import "_Colors.scss";
+
+.jumboImage {
+    height: 600px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    .jumboText {
+        color: #fff;
+        text-align: right;
+        font-size: 70px;
+        font-family: Bungee Inline, Arial, sans-serif;
+        margin-top: 200px;
+    }
+
+    .jumboTagline {
+        color: #fff;
+        text-align: right;
+        font-size: 70px;
+        font-family: Oswald, Arial, sans-serif;
+    }
+}
+
+.aboutSection {
+    background-color: #f7f7f7;
+
+    .aboutTitle {
+        color: #000;
+        font-size: 40px;
+        font-family: Bungee Inline, Arial, sans-serif;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .aboutContent {
+        color: #000;
+        text-align: left;
+        font-size: 20px;
+        font-family: Oswald, Arial, sans-serif;
+        margin-bottom: 20px;
+    }
+
+    .fb-page {
+        height: 350px;
+        margin-bottom: 20px;
+
+        iframe {
+            width: 100%;
+            height: 100%;
+        }
+    }
+}
+
+.tileSection {
+    background-color: #e3e3e3;
+
+    .tileHeader {
+        color: #000;
+        font-size: 40px;
+        font-family: Bungee Inline, Arial, sans-serif;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        text-align: center;
+
+        a {
+            color: #000;
+
+            &:hover {
+                text-decoration: none;
+            }
+        }
+    }
+
+    .tileImage {
+        img {
+            width: 100%;
+            height: 230px;
+        }
+
+        margin-bottom: 40px;
+    }
+}
+
+.contactSection {
+    .contactHeader {
+        color: #000;
+        font-size: 40px;
+        font-family: Bungee Inline, Arial, sans-serif;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .contactForm {
+        margin-bottom: 30px;
+        font-family: Oswald, Arial, sans-serif;
+    }
+
+    .map {
+        width: 100%;
+        height: 250px;
+        margin-bottom: 30px;
+
+        iframe {
+            width: 100%;
+            height: 100%;
+        }
+    }
+}
+
+.coverPhoto {
+    height: 300px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0% 70%;
+    background-image: url(../images/sport-1235019_1920.jpg);
+
+    .coverText {
+        color: #fff;
+        text-align: right;
+        font-size: 70px;
+        font-family: Bungee Inline, Arial, sans-serif;
+        margin-top: 115px;
+    }
+}
+
+.gymTitle {
+    color: #000;
+    font-size: 40px;
+    font-family: Bungee Inline, Arial, sans-serif;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.gymDesc {
+    font-family: Oswald, Arial, sans-serif;
+    margin-bottom: 30px;
+}
+
+.gymPhotoContain {
+    background-color: #e3e3e3;
+}
+
+.trainerContain {
+    font-family: Oswald, Arial, sans-serif;
+    .trainerImage {
+        text-align: center;
+
+        img {
+            width: 250px;
+            height: 250px;
+            border-radius: 140px;
+            margin: 10px auto;
+        }
+    }
+
+    .trainerName {
+        margin-top: 20px;
+    }
+
+    .trainerDesc {
+
+    }
+}

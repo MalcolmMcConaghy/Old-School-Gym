@@ -1,0 +1,4 @@
+﻿ 2016-06-09 01:18:52,448 [P4404/D3/T35] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2016-06-08 01:18:52
+ 2016-06-09 05:18:52,464 [P4404/D3/T15] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2016-06-08 05:18:52
+ 2016-06-09 09:18:52,475 [P4404/D3/T15] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2016-06-08 09:18:52
+ 2016-06-09 20:51:45,696 [P4404/D3/T15] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2016-06-08 20:51:45

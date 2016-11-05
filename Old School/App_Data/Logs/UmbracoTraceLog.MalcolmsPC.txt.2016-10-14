@@ -1,0 +1,4 @@
+﻿ 2016-10-14 02:02:28,084 [P18144/D9/T92] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2016-10-13 02:02:28
+ 2016-10-14 15:37:42,558 [P18144/D9/T86] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2016-10-13 15:37:42
+ 2016-10-14 19:37:42,568 [P18144/D9/T86] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2016-10-13 19:37:42
+ 2016-10-14 23:37:42,575 [P18144/D9/T86] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2016-10-13 23:37:42

@@ -1,0 +1,33 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+@{
+	Layout = "_Layout.cshtml";
+}
+
+<div class="coverPhoto">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 coverText">
+                @Model.Content.Name
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container">
+    <div class="row">
+        <div class="col-xs-12 gymTitle">
+            @Model.Content.GetPropertyValue("header")
+        </div>
+    </div>
+</div>
+<div class="container">
+    <div class="row">
+        <div class="col-xs-12 gymDesc">
+            @Model.Content.GetPropertyValue("description")
+        </div>        
+    </div>
+</div>
+<div class="container gymPhotoContain">
+    <div class="row">
+
+    </div>
+</div>
